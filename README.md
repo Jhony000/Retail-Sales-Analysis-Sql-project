@@ -41,7 +41,7 @@ SELECT COUNT(*) FROM retails;
 SELECT * FROM retails;
 
 --- Data Cleaning
-SELECT * FROM retails
+ SELECT * FROM retails
 where transaction_id is null
 or sale_date is null
 or sale_time is null 
@@ -51,6 +51,7 @@ or category is null
 or quantity is null
 or cogs is null
 or total_sale is null;
+
 --
 SET SQL_SAFE_UPDATES = 0;
 
