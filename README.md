@@ -16,8 +16,10 @@ and answering specific business questions through SQL queries. This pproject ide
 
 ##dataset = Retails.csv
 ## database setup
-## Database creation :the project is started by creating database name salesanalysis
-## Table creation : A table name retails is created to store sales data. The table structure contain transaction_id,sale_date,sale_time,customer_id,gender,category,quantity,cogs,totalsales and datatypes also. 
+## Database creation :
+the project is started by creating database name salesanalysis
+## Table creation : 
+A table name retails is created to store sales data. The table structure contain transaction_id,sale_date,sale_time,customer_id,gender,category,quantity,cogs,totalsales and datatypes also. 
 ## CREATE DATABASE salesanalysis;
 USE salesanalysis;
 
@@ -37,7 +39,8 @@ USE salesanalysis;
 
 SELECT COUNT(*) FROM retails;
 SELECT * FROM retails;
-## --- Data Cleaning
+
+--- Data Cleaning
 SELECT * FROM retails
 where transaction_id is null
 or sale_date is null
